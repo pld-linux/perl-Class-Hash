@@ -10,8 +10,8 @@ Summary(pl):	CLass::Hash - rozszerzenie Perla o hasze wygl±daj±ce jak klasy
 Name:		perl-Class-Hash
 Version:	1.01
 Release:	1
-# Same as Perl
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5366af138b4353755decf464afedccc4
