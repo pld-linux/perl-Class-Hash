@@ -1,11 +1,12 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	Hash
 Summary:	Class::Hash - Perl extension for hashes that look like classes
+Summary(pl):	CLass::Hash - rozszerzenie Perla o hasze wygl±daj±ce jak klasy
 Name:		perl-Class-Hash
 Version:	1.01
 Release:	1
@@ -28,7 +29,18 @@ to work the tied hash interface inside-out.
 This module tries to do as much or as little for you as you want and
 provides a number of configuration options. The options allow you to
 determine what kind of interface the object has. The interface may
-also be altered after-the-fact. See "OPTIONS" for details.
+also be altered after-the-fact.
+
+%description -l pl
+Ten pakiet dostarcza oparty na metodach interfejs do haszy. Czasem
+bardziej wygodne jest mieæ nazwane metody do dostêpu do hasza zamiast
+kluczy. Ten modu³ generalizuje takie zachowanie. Próbuje wyprowadziæ
+interfejs powi±zanego hasza.
+
+Ten modu³ próbuje zrobiæ jak najwiêcej lub jak najmniej za
+programistê w zale¿no¶ci od potrzeb, dostarczaj±c wiele opcji
+konfiguracyjnych. Opcje te pozwalaj± okre¶liæ rodzaj interfejsu, jaki
+ma obiekt. Ten interfejs mo¿e byæ tak¿e modyfikowany pó¼niej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
