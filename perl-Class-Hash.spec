@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Hash
+%define		pdir	Class
+%define		pnam	Hash
 Summary:	Class::Hash - Perl extension for hashes that look like classes
 Summary(pl):	CLass::Hash - rozszerzenie Perla o hasze wygl±daj±ce jak klasy
 Name:		perl-Class-Hash
