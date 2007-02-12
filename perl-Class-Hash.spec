@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Hash
 Summary:	Class::Hash - Perl extension for hashes that look like classes
-Summary(pl):	CLass::Hash - rozszerzenie Perla o hasze wygl±daj±ce jak klasy
+Summary(pl.UTF-8):   CLass::Hash - rozszerzenie Perla o hasze wyglÄ…dajÄ…ce jak klasy
 Name:		perl-Class-Hash
 Version:	1.01
 Release:	1
@@ -31,16 +31,16 @@ provides a number of configuration options. The options allow you to
 determine what kind of interface the object has. The interface may
 also be altered after-the-fact.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet dostarcza oparty na metodach interfejs do haszy. Czasem
-bardziej wygodne jest mieæ nazwane metody do dostêpu do hasza zamiast
-kluczy. Ten modu³ generalizuje takie zachowanie. Próbuje wyprowadziæ
-interfejs powi±zanego hasza.
+bardziej wygodne jest mieÄ‡ nazwane metody do dostÄ™pu do hasza zamiast
+kluczy. Ten moduÅ‚ generalizuje takie zachowanie. PrÃ³buje wyprowadziÄ‡
+interfejs powiÄ…zanego hasza.
 
-Ten modu³ próbuje zrobiæ jak najwiêcej lub jak najmniej za
-programistê w zale¿no¶ci od potrzeb, dostarczaj±c wiele opcji
-konfiguracyjnych. Opcje te pozwalaj± okre¶liæ rodzaj interfejsu, jaki
-ma obiekt. Ten interfejs mo¿e byæ tak¿e modyfikowany pó¼niej.
+Ten moduÅ‚ prÃ³buje zrobiÄ‡ jak najwiÄ™cej lub jak najmniej za
+programistÄ™ w zaleÅ¼noÅ›ci od potrzeb, dostarczajÄ…c wiele opcji
+konfiguracyjnych. Opcje te pozwalajÄ… okreÅ›liÄ‡ rodzaj interfejsu, jaki
+ma obiekt. Ten interfejs moÅ¼e byÄ‡ takÅ¼e modyfikowany pÃ³Åºniej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
