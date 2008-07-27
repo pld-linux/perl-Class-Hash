@@ -9,7 +9,7 @@ Summary:	Class::Hash - Perl extension for hashes that look like classes
 Summary(pl.UTF-8):	CLass::Hash - rozszerzenie Perla o hasze wyglądające jak klasy
 Name:		perl-Class-Hash
 Version:	1.01
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
