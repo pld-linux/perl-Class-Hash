@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Class
 %define		pnam	Hash
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Hash - Perl extension for hashes that look like classes
 Summary(pl.UTF-8):	CLass::Hash - rozszerzenie Perla o hasze wyglądające jak klasy
 Name:		perl-Class-Hash
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5366af138b4353755decf464afedccc4
+URL:		http://search.cpan.org/dist/Class-Hash/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -22,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This component provides a method-based interface to a hash.
-Occasionally, it's more convenient to have named methods to access
-a hash than hash keys. This module generalizes this behavior. It tries
+Occasionally, it's more convenient to have named methods to access a
+hash than hash keys. This module generalizes this behavior. It tries
 to work the tied hash interface inside-out.
 
 This module tries to do as much or as little for you as you want and
@@ -37,10 +38,10 @@ bardziej wygodne jest mieć nazwane metody do dostępu do hasza zamiast
 kluczy. Ten moduł generalizuje takie zachowanie. Próbuje wyprowadzić
 interfejs powiązanego hasza.
 
-Ten moduł próbuje zrobić jak najwięcej lub jak najmniej za
-programistę w zależności od potrzeb, dostarczając wiele opcji
-konfiguracyjnych. Opcje te pozwalają określić rodzaj interfejsu, jaki
-ma obiekt. Ten interfejs może być także modyfikowany później.
+Ten moduł próbuje zrobić jak najwięcej lub jak najmniej za programistę
+w zależności od potrzeb, dostarczając wiele opcji konfiguracyjnych.
+Opcje te pozwalają określić rodzaj interfejsu, jaki ma obiekt. Ten
+interfejs może być także modyfikowany później.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
