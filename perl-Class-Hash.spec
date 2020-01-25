@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	Hash
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Hash - Perl extension for hashes that look like classes
 Summary(pl.UTF-8):	CLass::Hash - rozszerzenie Perla o hasze wyglądające jak klasy
 Name:		perl-Class-Hash
